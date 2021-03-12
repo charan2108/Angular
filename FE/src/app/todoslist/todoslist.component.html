@@ -1,0 +1,18 @@
+<!-- <p>todoslist works!</p> -->
+<caption>My Subjects</caption>
+<table border ="1">
+   <thead>
+      <tr>
+         <th>ID</th>
+         <th>Description</th>
+         <th>Date</th>
+      </tr>
+   </thead>
+   <tbody>
+    <tr *ngFor= "let todoslist of todoslist">
+      <th>{{todoslist.id}}</th>
+      <th>{{todoslist.description}}</th>
+      <th>{{todoslist.date}}</th>
+   </tr>
+   </tbody>
+</table>
