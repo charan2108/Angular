@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>signup</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+   
+     <ion-card-content>
+      <form>
+        <ion-item>
+           <ion-label for="firstname">FirstName</ion-label>
+           <ion-input type="text" placeholder="Enter FirstName" required></ion-input>
+        </ion-item>
+
+        <ion-item>
+           <ion-label for="lastnme">LastName</ion-label>
+           <ion-input type="text" placeholder="Enter LastName" required></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label  for="email">Email ID</ion-label>
+          <ion-input type="text" placeholder="Enter Email" required></ion-input>
+       </ion-item>
+ 
+        <ion-item>
+          <ion-label  for="username">UserName</ion-label>
+          <ion-input type="text" placeholder="Enter UserName" required></ion-input>
+        </ion-item>   
+        
+        <ion-item>
+          <ion-label  for="password">Password</ion-label>
+          <ion-input type="password" placeholder="Enter Password" required></ion-input>
+        </ion-item>   
+      </form>
+      <ion-button  (click)="signup()"expand="block" class="btn btn-success">Signup</ion-button>
+    </ion-card-content>
+  </ion-card>
+     
+</ion-content>
